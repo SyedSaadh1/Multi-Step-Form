@@ -27,16 +27,18 @@ The objective of this project is to create a user-friendly multi-step form that 
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository_url>
-   cd multi-step-form-react
+     git clone "https://github.com/SyedSaadh1/Multi-Step-Form.git"
+   ```
 Install dependencies:
 
 ```bash
 npm install
+```
 Run the application:
 
 ```bash
 npm start
+````
 The application will start running locally on http://localhost:3000.
 
 Usage
@@ -46,9 +48,9 @@ Data will be saved locally, allowing you to revisit and continue from where you 
 Structure
 The project structure is organized into components responsible for each form step:
 
-Step1.js: Personal Information form fields.
-Step2.js: Address Information form fields.
-Step3.js: Confirmation and review of entered data.
+**Step1.js:** Personal Information form fields.
+**Step2.js:** Address Information form fields.
+**Step3.js:** Confirmation and review of entered data.
 Each component manages its state using React hooks (useState, useEffect) and handles user interactions (input changes, navigation between steps) accordingly.
 
 Implementation Notes
@@ -62,12 +64,3 @@ Future Enhancements
 API Integration: Implement backend integration to store form data persistently.
 Enhanced UX: Add animations/transitions between form steps for a smoother user experience.
 Unit Testing: Write unit tests to validate form components and validation functions.
-
-Author
-Syed Saadh
-
-Acknowledgements
-This project was inspired by [Challenge Task].
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
