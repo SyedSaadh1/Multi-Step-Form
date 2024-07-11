@@ -31,13 +31,11 @@ The objective of this project is to create a user-friendly multi-step form that 
    cd multi-step-form-react
 Install dependencies:
 
-bash
-Copy code
+```bash
 npm install
 Run the application:
 
-bash
-Copy code
+```bash
 npm start
 The application will start running locally on http://localhost:3000.
 
@@ -64,9 +62,12 @@ Future Enhancements
 API Integration: Implement backend integration to store form data persistently.
 Enhanced UX: Add animations/transitions between form steps for a smoother user experience.
 Unit Testing: Write unit tests to validate form components and validation functions.
+
 Author
-Your Name
+Syed Saadh
+
 Acknowledgements
-This project was inspired by [insert source if any].
+This project was inspired by [Challenge Task].
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
